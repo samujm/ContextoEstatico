@@ -10,6 +10,7 @@ public class Persona {
         this.nombre = nombre;
         //Incrementar el contador por cada objeto nuevo
         Persona.contadorPersonas++; //no se recomienda ocupar el operador this para acceder a las variables static ya que estas variables se asocian con la clase, se ocupa el nombre de la clase
+        //se antepone el nombre de la clase para indicar que es una variable estatica
         this.idPersona = Persona.contadorPersonas; //Se asigna el valor ya incrementado
     }
     
